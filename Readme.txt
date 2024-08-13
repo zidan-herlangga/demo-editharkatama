@@ -1,6 +1,8 @@
-Thanks for downloading this template!
+# Edith Arkatama WO & EO
+Demo site static project 
 
-Template Name: Laura
-Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+## Tools
+-- HTML
+-- CSS
+-- JavaScript
+-- Bootstrap
