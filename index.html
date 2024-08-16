@@ -103,7 +103,7 @@
     >
       <div class="container d-flex align-items-center justify-content-between">
         <a href="/" class="logo">
-          <img src="assets/img/logo-edith.webp" alt="Logo" height="70" />
+          <!-- <img src="assets/img/logo-edith.webp" alt="Logo" height="70" /> -->
         </a>
 
         <nav id="navbar" class="navbar">
@@ -511,7 +511,7 @@
             <span>Layanan Kami</span>
             <h2>Layanan Kami</h2>
           </div>
-          <div class="row">
+          <div class="row g-3">
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-lg-0">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-food-menu"></i></div>
@@ -581,7 +581,9 @@
             >
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-car"></i></div>
-                <h4 class="title"><a href="">Jasa Transportasi</a></h4>
+                <h4 class="title">
+                  <a href="pages/transportasi/">Jasa Transportasi</a>
+                </h4>
                 <p class="description">
                   Menawarkan layanan transportasi yang handal dan aman...
                   <a href="#" data-toggle="modal" data-target="#transportModal"
@@ -607,12 +609,12 @@
               </div>
             </div> -->
 
-            <!-- <div
+            <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
             >
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-photo-album"></i></div>
-                <h4 class="title"><a href="">Fotografi</a></h4>
+                <h4 class="title"><a href="pages/galeri/">Fotografi</a></h4>
                 <p class="description">
                   Layanan fotografi profesional untuk mengabadikan momen-momen
                   berharga...
@@ -624,7 +626,7 @@
                   >
                 </p>
               </div>
-            </div> -->
+            </div>
 
             <!-- <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
@@ -645,12 +647,14 @@
               </div>
             </div> -->
 
-            <!-- <div
+            <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
             >
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4 class="title"><a href="">Auto Detailing</a></h4>
+                <h4 class="title">
+                  <a href="pages/auto-detailing/">Auto Detailing</a>
+                </h4>
                 <p class="description">
                   Layanan detailing mobil yang profesional untuk menjaga
                   kendaraan...
@@ -659,7 +663,7 @@
                   >
                 </p>
               </div>
-            </div> -->
+            </div>
 
             <!-- <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
@@ -804,7 +808,7 @@
                 tahun, hingga acara korporat. Kami memastikan setiap detail
                 acara berjalan dengan lancar dan sesuai keinginan Anda.
 
-                <a href="pages/wo/paket.html" class="text-decoration-underline"
+                <a href="pages/wo/#search-box" class="text-decoration-underline"
                   >Kunjungi Paket</a
                 >
               </div>
@@ -1946,17 +1950,17 @@
           document.querySelector(".loading").style.display = "block";
 
           // Gather form data
-          var name = document.getElementById("name").value;
-          var email = document.getElementById("email").value;
+          let name = document.getElementById("name").value;
+          let email = document.getElementById("email").value;
           var subject = document.getElementById("subject").value;
           var message = document.getElementById("message").value;
 
           // Format the WhatsApp message
-          var waMessage = `Nama: ${name}\nEmail: ${email}\nSubject: ${subject}\nPesan: ${message}`;
+          let waMessage = `Nama: ${name}\nEmail: ${email}\nSubject: ${subject}\nPesan: ${message}`;
 
           // WhatsApp API URL
-          var phoneNumber = "62XXXXXXXXXX"; // Replace with your phone number in international format without +
-          var waLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+          let phoneNumber = "6282298066188"; // Replace with your phone number in international format without +
+          let waLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
             waMessage
           )}`;
 
