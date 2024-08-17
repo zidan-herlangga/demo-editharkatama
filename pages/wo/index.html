@@ -579,11 +579,6 @@
 
       <!-- ======= Searchbox Section ======= -->
       <section id="search-box" class="search-box">
-        <div class="d-flex justify-content-center">
-          <!-- <button class="btn btn-dark" id="showPackages" type="button">
-            <a href="#container__packages">Tampilkan Paket</a>
-          </button> -->
-        </div>
         <div class="container mt-5 packages_wo" id="container__packages">
           <div class="section-title">
             <span>Paket</span>
@@ -872,22 +867,5 @@
     <!-- Template Main JS File -->
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/wo-search.js"></script>
-
-    <script>
-      const showPackages = document.getElementById("showPackages");
-      const packages = document.getElementById("container__packages");
-
-      showPackages.addEventListener("click", () => {
-        if (packages.classList.contains("show")) {
-          // Hide packages
-          packages.classList.remove("show");
-          showPackages.innerText = "Tampilkan Paket";
-        } else {
-          // Show packages
-          packages.classList.add("show");
-          showPackages.innerText = "Sembunyikan Paket";
-        }
-      });
-    </script>
   </body>
 </html>
