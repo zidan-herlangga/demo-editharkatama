@@ -665,6 +665,74 @@
     </main>
     <!-- End #main -->
 
+    <!-- Button Whatsapp -->
+    <div class="button-whatsapp">
+      <a
+        href="#"
+        title="Go To Whatsapp"
+        class="button-to-wa d-flex align-items-center justify-content-center text-light"
+        data-bs-toggle="modal"
+        data-bs-target="#whatsappModal"
+        style="width: 100px; gap: 10px"
+        ><span>Chat</span><i class="bi bi-whatsapp"></i
+      ></a>
+    </div>
+
+    <!-- ========= WhatsApp Modal ========= -->
+    <div
+      class="modal fade"
+      id="whatsappModal"
+      tabindex="-1"
+      aria-labelledby="whatsappModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="whatsappModalLabel">
+              Butuh bantuan? Hubungi kami
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6282298066188&text=Halo+kak.+Saya+mau+tanya%3F+&type=phone_number&app_absent=0"
+                  target="_blank"
+                  id="wa-active"
+                >
+                  <div class="d-flex align-items-center">
+                    <span
+                      class="text-light rounded-1 ms-2"
+                      id="online_or_offline"
+                    >
+                      <!-- Online or Offline -->
+                    </span>
+                    <img
+                      src="/assets/img/vector-business-men-icon.jpg"
+                      alt="Indah Purnamasari"
+                      class="contact-img me-3"
+                    />
+                    <span class="text-dark">Indah Purnamasari</span>
+                  </div>
+                </a>
+              </li>
+              <!-- Add more contacts as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========= WhatsApp Modal End ========= -->
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container">

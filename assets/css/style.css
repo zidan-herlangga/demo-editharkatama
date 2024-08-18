@@ -11,11 +11,10 @@ body {
   color: #444444;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  /* background: url("https://png.pngtree.com/thumb_back/fh260/background/20210421/pngtree-premium-quality-batik-ornament-patterns-background-image_633017.jpg")
-    center; */
-  /* background-size: cover; */
-  /* box-shadow: rgba(0, 0, 0, 0.1); */
-  background: #f7f7f5;
+  background: url("/assets/img/background.jpg") center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  /* background: #f7f7f5; */
 }
 
 a {
@@ -139,6 +138,16 @@ h6 {
   height: 80px;
   /* background: rgba(25, 28, 31, 0.8); */
   background: #111;
+}
+
+#logo {
+  opacity: 0;
+  transition: ease-in-out 0.4s;
+  cursor: default;
+}
+
+.header-scrolled #logo {
+  opacity: 1;
 }
 
 /*--------------------------------------------------------------
@@ -1568,6 +1577,23 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.active > .page-link,
+.page-link.active {
+  z-index: 3;
+  background-color: #ffc85a;
+  border-color: #333;
+}
+
+.page-link {
+  color: #111;
+  border: 0.5px solid #9b9b9bc0;
+}
+
+.page-link:hover {
+  color: #3b434a;
+  background-color: #ffc85a;
 }
 
 /*--------------------------------------------------------------

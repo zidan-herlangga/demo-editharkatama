@@ -102,8 +102,8 @@
       class="fixed-top d-flex justify-content-between align-items-center header-transparent"
     >
       <div class="container d-flex align-items-center justify-content-between">
-        <a href="/" class="logo">
-          <!-- <img src="assets/img/logo-edith.webp" alt="Logo" height="70" /> -->
+        <a href="/" class="logo" id="logo">
+          <img src="assets/img/logo-edith.webp" alt="Logo" height="70" />
         </a>
 
         <nav id="navbar" class="navbar">
@@ -1329,7 +1329,7 @@
       ></a>
       <!-- Audio Element -->
       <audio id="backgroundMusic" loop>
-        <source src="assets/music/edith-song.mpeg" type="audio/mp3" />
+        <source src="assets/music/jinggle-edith.mp3" type="audio/mp3" />
         Your browser does not support the audio element.
       </audio>
     </div>
@@ -1532,8 +1532,8 @@
           // Gather form data
           let name = document.getElementById("name").value;
           let email = document.getElementById("email").value;
-          var subject = document.getElementById("subject").value;
-          var message = document.getElementById("message").value;
+          let subject = document.getElementById("subject").value;
+          let message = document.getElementById("message").value;
 
           // Format the WhatsApp message
           let waMessage = `Nama: ${name}\nEmail: ${email}\nSubject: ${subject}\nPesan: ${message}`;
