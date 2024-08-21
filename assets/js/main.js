@@ -90,13 +90,15 @@ let typing = new Typed("#typed", {
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select("#header");
+  const selectLogo = select("#logo");
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add("header-scrolled");
-        // selectHeader.classList.add("show");
+        selectLogo.style.opacity = 1;
       } else {
         selectHeader.classList.remove("header-scrolled");
+        selectLogo.style.opacity = 0;
       }
     };
     window.addEventListener("load", headerScrolled);
