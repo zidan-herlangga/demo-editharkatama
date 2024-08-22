@@ -1368,7 +1368,7 @@ section {
 --------------------------------------------------------------*/
 .support img {
   width: auto;
-  height: 150px;
+  height: 100px;
   margin-bottom: 20px;
   aspect-ratio: 3/2;
   object-fit: contain;
@@ -1380,12 +1380,12 @@ section {
   filter: grayscale(0%);
   transform: scale(1.05);
 }
-
+/* 
 @media screen and (max-width: 400px) {
   .support img {
-    height: 100px;
+    height: 80px;
   }
-}
+} */
 
 /* Container for the marquee */
 .marquee-container {
