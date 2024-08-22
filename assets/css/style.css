@@ -408,7 +408,7 @@ h6 {
 }
 
 .wave {
-  background: rgb(255 255 255 / 25%);
+  /* background: rgb(255 255 255 / 25%); */
   border-radius: 2000% 1000% 700%;
   position: fixed;
   width: 300%;
