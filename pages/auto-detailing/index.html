@@ -38,8 +38,8 @@
     <!-- Meta Tags Generated via https://opengraph.dev -->
 
     <!-- Favicons -->
-    <link href="/assets/img/altor-logo.png" rel="icon" />
-    <link href="/assets/img/altor-logo.png" rel="apple-touch-icon" />
+    <link href="/assets/img/altor-img/altor-logo.png" rel="icon" />
+    <link href="/assets/img/altor-img/altor-logo.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -66,6 +66,9 @@
     />
     <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Template Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet" />
   </head>
@@ -76,7 +79,11 @@
       <section class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>ALTOR.PREMIUM</h2>
+            <img
+              src="/assets/img/altor-img/altor-logo.png"
+              alt="logo"
+              height="90"
+            />
             <ol>
               <li><a href="/">Home</a></li>
               <li><a href="#">Portfolio</a></li>
@@ -94,11 +101,11 @@
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
-                  <div class="swiper-slide">
+                  <div data-aos="fade-right" data-aos-delay="500">
                     <img
-                      src="/assets/img/altor-logo.png"
+                      src="/assets/img/altor-img/mobil.png"
                       alt="Altor Logo"
-                      height="500"
+                      height="auto"
                     />
                   </div>
                 </div>
@@ -106,7 +113,7 @@
             </div>
 
             <div class="col-lg-4">
-              <div class="portfolio-info">
+              <div class="portfolio-info bg-white">
                 <h3>INFORMATION</h3>
                 <ul>
                   <li><strong>Category</strong>: Auto Detailing</li>
@@ -132,7 +139,7 @@
                 </ul>
               </div>
 
-              <div class="portfolio-info">
+              <div class="portfolio-info bg-white">
                 <h3>E-CATALOGUE</h3>
                 <ul class="border p-3 fw-bold">
                   <li><i class="bx bx-plus"></i> Accesories</li>
@@ -277,19 +284,9 @@
         </div>
       </section>
 
-      <section
-        id="custom-packages"
-        class="testimonials"
-        data-aos="fade-zoom-in"
-        data-aos-easing="linear"
-        data-aos-duration="500"
-      >
+      <section id="custom-packages" class="testimonials">
         <div class="container position-relative">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div class="testimonials-slider swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-item">
@@ -333,6 +330,12 @@
 
     <!-- Vendor JS Files -->
     <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Template Main JS File -->
     <script src="/assets/js/main.js"></script>
