@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 html,
 body {
-  width: 100vw;
+  width: 100vw !important;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -314,13 +314,13 @@ h6 {
   position: absolute;
   top: 55px;
   right: 0;
-  bottom: 15px;
+  bottom: 0;
   width: 50%; /* Lebar 50% untuk layar besar */
   padding: 10px 0;
-  border-radius: 10px;
+  border-radius: 0px;
   background-color: #fff;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 /* Media query untuk layar kecil */
@@ -389,7 +389,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #hero.home {
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   /* background: url("../img/hero-bg/hero-home.jpg") top right; */
   background-color: white;
@@ -561,6 +561,10 @@ h6 {
 
 #hero .btn-scroll i {
   font-size: 48px;
+}
+
+#hero .btn-scroll img {
+  height: 40px;
 }
 
 #hero .btn-scroll:hover {
