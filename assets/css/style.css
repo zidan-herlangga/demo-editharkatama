@@ -674,7 +674,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 2px 0;
+  padding: 10px 0;
   /* background-color: black; */
   min-height: 40px;
   /* margin-top: 20px; */
@@ -682,7 +682,7 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 
