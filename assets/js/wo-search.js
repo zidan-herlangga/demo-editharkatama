@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalPrice = document.getElementById("modal-price");
   const modalDescription = document.getElementById("modal-description");
   const modalActionBtn = document.getElementById("modal-action-btn");
+  const copyBtn = document.getElementById("modal-copy-btn");
 
   const modal = new bootstrap.Modal(modalElement);
   let currentPackage = null;
@@ -543,6 +544,17 @@ Sus`,
     filterAndSort();
   }
 
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(
+      () => {
+        alert("Teks telah disalin ke clipboard!");
+      },
+      (err) => {
+        alert("Gagal menyalin teks: " + err);
+      }
+    );
+  }
+
   packagesContainer.addEventListener("click", (event) => {
     const packageElem = event.target.closest(".package");
     if (packageElem) {
@@ -584,11 +596,23 @@ Sus`,
         style: "currency",
         currency: "IDR",
       })}.`;
-      const phoneNumber = "628123456789"; // Ganti dengan nomor WhatsApp yang sesuai
+      const phoneNumber = "6282298066188"; // Ganti dengan nomor WhatsApp yang sesuai
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
         message
       )}`;
       window.open(url, "_blank");
+    }
+  });
+
+  copyBtn.addEventListener("click", () => {
+    if (currentPackage) {
+      const text = `Nama Paket: ${currentPackage.name}\nVenue: ${
+        currentPackage.venue
+      }\nHarga: ${currentPackage.price.toLocaleString("id-ID", {
+        style: "currency",
+        currency: "IDR",
+      })}\nDeskripsi:\n${currentPackage.description}`;
+      copyToClipboard(text);
     }
   });
 

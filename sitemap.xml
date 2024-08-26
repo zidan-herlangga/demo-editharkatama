@@ -1,17 +1,62 @@
-<?xml versi="1.0" penyandian="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url >
+  <url>
+    <loc>http://www.cv.editharkatama.com/</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-  <loc >http://www.example.com/</loc>
+  <url>
+    <loc>http://www.editharkatama.com/</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-  <mod terakhir > 01-01-2005</mod terakhir>
+  <url>
+    <loc>http://www.cv.editharkatama.com/about</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-  <changefreq >bulanan</changefreq>
+  <url>
+    <loc>http://www.editharkatama.com/about</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-  <prioritas >0.8</prioritas>
+  <url>
+    <loc>http://www.cv.editharkatama.com/services</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-Bahasa Indonesia:
+  <url>
+    <loc>http://www.editharkatama.com/services</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://www.cv.editharkatama.com/contact</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://www.editharkatama.com/contact</loc>
+    <lastmod>2024-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tambahkan lebih banyak URL sesuai kebutuhan -->
 
 </urlset>

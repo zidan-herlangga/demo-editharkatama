@@ -291,6 +291,12 @@ h6 {
   }
 }
 
+.bi-x::before {
+  content: "\f62a";
+  vertical-align: -1.125em;
+  margin-right: 1em;
+}
+
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -312,10 +318,10 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
+  top: 80px;
   right: 0;
   bottom: 0;
-  width: 50%; /* Lebar 50% untuk layar besar */
+  width: 30%; /* Lebar 50% untuk layar besar */
   padding: 10px 0;
   border-radius: 0px;
   background-color: #fff;

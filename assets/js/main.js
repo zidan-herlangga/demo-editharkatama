@@ -198,21 +198,21 @@ let typing = new Typed("#typed", {
 
   /**
    * Testimonials slider
-   */
-  new Swiper(".testimonials-slider", {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-  });
+  //  */
+  // new Swiper(".testimonials-slider", {
+  //   speed: 600,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false,
+  //   },
+  //   slidesPerView: "auto",
+  //   pagination: {
+  //     el: ".swiper-pagination",
+  //     type: "bullets",
+  //     clickable: true,
+  //   },
+  // });
 
   /**
    * Porfolio isotope and filter
@@ -255,24 +255,24 @@ let typing = new Typed("#typed", {
   /**
    * Portfolio details slider
    */
-  new Swiper(".portfolio-details-slider", {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-  });
+  // new Swiper(".portfolio-details-slider", {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false,
+  //   },
+  //   pagination: {
+  //     el: ".swiper-pagination",
+  //     type: "bullets",
+  //     clickable: true,
+  //   },
+  // });
 
   /**
    * Initiate Pure Counter
    */
-  new PureCounter();
+  // new PureCounter();
 })();
 
 /**
@@ -297,29 +297,28 @@ document.addEventListener("DOMContentLoaded", function () {
 /**
  * Status Whatsapp
  */
-const online_or_offline = document.getElementById("online_or_offline");
-const wa_active = document.getElementById("wa_active");
-const time = new Date();
-const nowTime = time.getHours();
+// const online_or_offline = document.getElementById("online_or_offline");
+// const wa_active = document.getElementById("wa_active");
+// const time = new Date();
+// const nowTime = time.getHours();
 
-if (nowTime >= 22 || nowTime < 7) {
-  online_or_offline.innerText = "Offline";
-  online_or_offline.style.cssText =
-    "font-size: 10px; background: #c03b24; padding: 3px;";
-} else {
-  online_or_offline.innerText = "Online";
-  online_or_offline.style.cssText =
-    "font-size: 10px; background: #5dc024; padding: 3px";
-}
-
-/**
- * Costume Package Whatsapp
- */
+// if (nowTime >= 22 || nowTime < 7) {
+//   online_or_offline.innerText = "Offline";
+//   online_or_offline.style.cssText =
+//     "font-size: 10px; background: #c03b24; padding: 3px;";
+// } else {
+//   online_or_offline.innerText = "Online";
+//   online_or_offline.style.cssText =
+//     "font-size: 10px; background: #5dc024; padding: 3px";
+// }
 
 document
   .getElementById("sendPackageCustom")
-  .addEventListener("click", function () {
-    // Ambil nilai dari formulir
+  .addEventListener("click", function (event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Get form values
     const productType = document.getElementById("productType").value;
     const customDescription =
       document.getElementById("customDescription").value;
@@ -327,7 +326,7 @@ document
     const specifications = document.getElementById("specifications").value;
     const deliveryDate = document.getElementById("deliveryDate").value;
 
-    // Buat pesan WhatsApp
+    // Create WhatsApp message
     const message =
       `*Halo, saya ingin memesan custom dengan detail berikut:* \n\n` +
       `- Jenis Produk/Layanan: ${productType}\n` +
@@ -336,12 +335,13 @@ document
       `- Spesifikasi: ${specifications}\n` +
       `- Tanggal Pengiriman: ${deliveryDate}`;
 
-    // URL WhatsApp
-    const phoneNumber = "+6282298066188"; // Nomor WhatsApp
-    const waURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    // WhatsApp URL
+    const phoneNumber = "6282298066188"; // WhatsApp number
+    const waURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
       message
     )}`;
-    // Validasi input
+
+    // Validate input
     if (
       productType === "" ||
       customDescription === "" ||
@@ -350,39 +350,38 @@ document
       deliveryDate === ""
     ) {
       alert("Harap lengkapi semua data yang dibutuhkan!");
-      return; // Abort if any field is empty
     } else {
-      // Open WhatsApp with the constructed message
       window.open(waURL, "_blank");
     }
   });
+
 /*
  * Set Cookies
  */
 // Select the cookie consent box and all buttons
-const cookieBox = document.getElementById("cookieBox"),
-  buttons = document.querySelectorAll(".button");
+// const cookieBox = document.getElementById("cookieBox"),
+//   buttons = document.querySelectorAll(".button");
 
-const executeCodes = () => {
-  // Check if the cookie "cookieBy" exists
-  if (document.cookie.includes("cookieBy=CV. Edith Arkatama")) return;
+// const executeCodes = () => {
+//   // Check if the cookie "cookieBy" exists
+//   if (document.cookie.includes("cookieBy=CV. Edith Arkatama")) return;
 
-  // Show the cookie consent box
-  cookieBox.classList.add("show");
+//   // Show the cookie consent box
+//   cookieBox.classList.add("show");
 
-  // Add event listeners to each button
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      // Hide the cookie consent box
-      cookieBox.classList.remove("show");
+//   // Add event listeners to each button
+//   buttons.forEach((button) => {
+//     button.addEventListener("click", () => {
+//       // Hide the cookie consent box
+//       cookieBox.classList.remove("show");
 
-      // If the accept button is clicked, set the cookie for 30 days
-      if (button.id === "acceptBtn") {
-        const oneMonthInSeconds = 60 * 60 * 24 * 30;
-        document.cookie = `cookieBy=CV. Edith Arkatama; max-age=${oneMonthInSeconds}; path=/`;
-      }
-    });
-  });
-};
-// Execute the function when the webpage loads
-window.addEventListener("load", executeCodes);
+//       // If the accept button is clicked, set the cookie for 30 days
+//       if (button.id === "acceptBtn") {
+//         const oneMonthInSeconds = 60 * 60 * 24 * 30;
+//         document.cookie = `cookieBy=CV. Edith Arkatama; max-age=${oneMonthInSeconds}; path=/`;
+//       }
+//     });
+//   });
+// };
+// // Execute the function when the webpage loads
+// window.addEventListener("load", executeCodes);
