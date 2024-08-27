@@ -499,6 +499,220 @@ Krocket Kentang
 Sus`,
       image: "/assets/img/logo-edith.webp", // Ensure this path is correct
     },
+
+    //paket hotel horisson bekasi
+    {
+      name: "Horison Star Wedding Package",
+      venue: "Hotel Horison Bekasi",
+      price: 81500000,
+      description: `Menu
+Buffet Set for 200pax
+Thai Beef Salad
+Tomyam Seafood
+Steam Rice
+Chicken Kungpao
+Chili Fish w/ Manggo Sc
+Vegetables Sopo Tofu
+Kwetiau Seafood
+Pickles, Crackers, Kind of Sambal
+Slice Fruits
+Ice Water
+Orange Juice
+
+LED Screen & TV 
+LED Screen 2x3 Meter
+Level Led 1 Meter
+LED TV 42" (2 Unit)
+Make Up & Groom Bride :
+ -Make Up & Groom Bride Reception
+ -Make Up & Bridal Companion 2 pair
+ -Make Up & Bridal Guest Reception 4pax
+ -Make Up & Bridal Guest Among 4pair
+Wedding Decoration :
+ -Wedding Aisle 4.5 Meter
+ -Gazebo Entrance Door
+ -Mini Garden 
+ -Red Carpet & Rugs
+ -Angpao Box 2 Units
+ -Tiffani Chairs 2pcs
+Photo & Video Cinematic
+Pra-Wedding Photo Indoor
+MC Event
+E. Invitation
+Sound System + Entertaiment : Organ, Player, Singer, Guitar, Saxophone
+Wedding Car
+
+Include : 
+< 300 Sqm wedding area
+Masker medis 100pcs
+Faceshield 50pcs
+Sanitizer 2 botol pump
+Crew WO 5 Person on the Event
+
+*Include One Night Stay in Duluxe Room for Bride and Groom
+`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Park 5 Cilandak Hotel Package",
+      venue: "Park 5 Cilandak Hotel",
+      price: 69500000,
+      description: `Menu
+Prasmanan for 150 Pax
+Wedding Decoration
+LED Screen & LED TV
+Make up Bride & Groom with Dress
+Foto & Video
+Pra Wedding Indoor
+MC
+Entertaiment
+E. Invitation
+Wedding Car
+
+Include :
+4 Crew on Your Wedding Day
+Desinfectan System for all guest and wedding area 
+< 300sqm wedding area 
+1 night at Duluxe Room Park 5 Hotel`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "South Lake MGC Package",
+      venue: "South Lake Mutiara Gading Timur Bekasi",
+      price: 50500000,
+      description: `Pelaminan Booth
+      Rias + Busana Resepsi 
+      Rias + Busana Tamu 2 Pasang
+      Rias + Busana Among 2 Pasang
+      Pergola Selamat Datang Janur
+      Foto & Video Shooting
+      Hiburan Organ Tunggal
+      Cathering 400 Porsi
+      Voucher Hotel Honey Moon Package
+      Crew WO
+      E-Invitation`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Paketan Hotel MaxOne 1",
+      venue: "Hotel MaxOne",
+      price: 45500000,
+      description: `Fasilitas Vanue :
+      Test Food 6 orang
+      Kamar 2 Malam (1 kamar)
+      Kamar 1 Malam (1 Kamar)
+      BALLROOM 4 Jam
+      DOORPRICE HONEYMOON KE BALI (DRAW)
+      Dekorasi Pelaminan
+      Rias Dan Busana Pengantin
+      Prasmanan Buffe Hotel (menu Pilihan Indonesia atau Western)
+      Kue Pengantin
+      Foto dan Video 
+      Sound System
+      MC Nasional
+      Crew Edith`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Paketan Hotel MaxOne 2",
+      venue: "Hotel MaxOne",
+      price: 38500000,
+      description: `Fasilitas Vanue :
+      Test Food 6 orang
+      Kamar 2 Malam (1 kamar)
+      Kamar 1 Malam (1 Kamar)
+      BALLROOM 4 Jam
+      DOORPRICE HONEYMOON KE BALI (DRAW)
+      Dekorasi Pelaminan
+      Rias Dan Busana Pengantin
+      Prasmanan Buffe Hotel (menu Pilihan Indonesia atau Western)
+      Kue Pengantin
+      Foto dan Video 
+      Sound System
+      MC Nasional
+      Crew Edith`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Paketan Hotel MaxOne 3",
+      venue: "Hotel MaxOne",
+      price: 42500000,
+      description: `Fasilitas Vanue :
+      Test Food 6 orang
+      Kamar 2 Malam (1 kamar)
+      Kamar 1 Malam (1 Kamar)
+      BALLROOM 4 Jam
+      DOORPRICE HONEYMOON KE BALI (DRAW)
+      Dekorasi Pelaminan
+      Rias Dan Busana Pengantin
+      Prasmanan Buffe Hotel (menu Pilihan Indonesia atau Western)
+      Kue Pengantin
+      Foto dan Video 
+      Sound System
+      MC Nasional
+      Crew Edith`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Paketan Hotel MaxOne 4",
+      venue: "Hotel MaxOne",
+      price: 35500000,
+      description: `Fasilitas Vanue :
+      Test Food 6 orang
+      Kamar 2 Malam (1 kamar)
+      Kamar 1 Malam (1 Kamar)
+      BALLROOM 4 Jam
+      DOORPRICE HONEYMOON KE BALI (DRAW)
+      Dekorasi Pelaminan
+      Rias Dan Busana Pengantin
+      Prasmanan Buffe Hotel (menu Pilihan Indonesia atau Western)
+      Kue Pengantin
+      Foto dan Video 
+      Sound System
+      MC Nasional
+      Crew Edith`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Paketan Hotel MaxOne 5",
+      venue: "Hotel MaxOne",
+      price: 39900000,
+      description: `Fasilitas Vanue :
+      Test Food 6 orang
+      Kamar 2 Malam (1 kamar)
+      Kamar 1 Malam (1 Kamar)
+      BALLROOM 4 Jam
+      DOORPRICE HONEYMOON KE BALI (DRAW)
+      Dekorasi Pelaminan
+      Rias Dan Busana Pengantin
+      Prasmanan Buffe Hotel (menu Pilihan Indonesia atau Western)
+      Kue Pengantin
+      Foto dan Video 
+      Sound System
+      MC Nasional
+      Crew Edith`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
+    {
+      name: "Paketan Hotel MaxOne 6",
+      venue: "Hotel MaxOne",
+      price: 33500000,
+      description: `Fasilitas Vanue :
+      Test Food 6 orang
+      Kamar 2 Malam (1 kamar)
+      Kamar 1 Malam (1 Kamar)
+      BALLROOM 4 Jam
+      DOORPRICE HONEYMOON KE BALI (DRAW)
+      Dekorasi Pelaminan
+      Rias Dan Busana Pengantin
+      Prasmanan Buffe Hotel (menu Pilihan Indonesia atau Western)
+      Kue Pengantin
+      Foto dan Video 
+      Sound System
+      MC Nasional
+      Crew Edith`,
+      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+    },
   ];
 
   function renderPackages(packages) {

@@ -81,6 +81,106 @@
     <!-- Template Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet" />
   </head>
+
+  <style>
+    /* General styling for the timeline section */
+    .akomodasi-timeline {
+      padding: 60px 0;
+      background-color: #f9f9f9;
+    }
+
+    .akomodasi-timeline .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .akomodasi-timeline .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .akomodasi-timeline .section-title p {
+      font-size: 18px;
+      color: #666;
+    }
+
+    .akomodasi-timeline .resume-title {
+      font-size: 28px;
+      font-weight: 700;
+      /* margin-top: 40px; */
+      border-bottom: 2px solid #dbbc34;
+      padding-bottom: 10px;
+    }
+
+    .akomodasi-timeline .resume-item {
+      margin-bottom: 30px;
+    }
+
+    .akomodasi-timeline .resume-item h4 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .akomodasi-timeline .resume-item ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .akomodasi-timeline .resume-item ul li {
+      font-size: 16px;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .akomodasi-timeline .resume-item ul li::before {
+      content: "|-";
+      position: absolute;
+      left: 0;
+      color: #dbbc34;
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    /* Responsive design */
+    @media (max-width: 991px) {
+      .akomodasi-timeline .resume-title {
+        font-size: 24px;
+      }
+
+      .akomodasi-timeline .resume-item h4 {
+        font-size: 20px;
+      }
+
+      .akomodasi-timeline .resume-item ul li {
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .akomodasi-timeline .section-title h2 {
+        font-size: 28px;
+      }
+
+      .akomodasi-timeline .section-title p {
+        font-size: 16px;
+      }
+
+      .akomodasi-timeline .resume-title {
+        font-size: 22px;
+      }
+
+      .akomodasi-timeline .resume-item h4 {
+        font-size: 18px;
+      }
+
+      .akomodasi-timeline .resume-item ul li {
+        font-size: 12px;
+      }
+    }
+  </style>
   <body>
     <!-- ======= Header ======= -->
     <header
@@ -157,7 +257,7 @@
     <!-- ======= Main Section ======= -->
     <main id="main">
       <!-- ======= Timeline Section ======= -->
-      <section id="akomodasi" class="akomodasi">
+      <section id="akomodasi" class="akomodasi-timeline">
         <div class="container">
           <div class="section-title">
             <span>Timeline</span>
@@ -219,14 +319,21 @@
               <div class="resume-item">
                 <h4>...</h4>
                 <ul>
-                  <li>Check out jam 9</li>
+                  <li>Check Out jam 9</li>
                   <li>Makan Siang di Bawen</li>
                   <li>Makan Malam di 102 Cipali</li>
                   <li>Sampai di Kota Asal</li>
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- Timeline Section -->
 
+      <section class="11">
+        <div class="container">
+          <div class="row">
             <div class="col-lg-12 mx-auto mt-5">
               <!-- CUSTOM BLOCKQUOTE -->
               <blockquote
@@ -237,7 +344,7 @@
                 <ul class="mt-4">
                   <strong>Hotel Bintang 3</strong>
                   <li>
-                    GRAND ROSELA ( 1 Malam, Guru untuk 4 Orang dan Siswauntuk4
+                    GRAND ROSELA ( 1 Malam, Guru untuk 4 Orang dan Siswa untuk 4
                     Orang ) lokasi 2 kilo meter dari Malioboro
                   </li>
                   <li>Aula Kegiatan</li>
@@ -318,7 +425,6 @@
           </div>
         </div>
       </section>
-      <!-- Timeline Section -->
     </main>
     <!-- End #main -->
 
@@ -421,13 +527,13 @@
     <!-- ========= WhatsApp Modal End ========= -->
 
     <!-- Vendor JS Files -->
-    <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <!-- <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script> -->
     <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
     <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script> -->
     <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="/assets/vendor/php-email-form/validate.js"></script>
+    <!-- <script src="/assets/vendor/php-email-form/validate.js"></script> -->
 
     <!-- CDN JS Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
