@@ -2,61 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://www.cv.editharkatama.com/</loc>
-    <lastmod>2024-08-26</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://editharkatama.vercel.app/</loc>
+    <lastmod>2024-08-29</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>http://www.editharkatama.com/</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/#about/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>http://www.cv.editharkatama.com/about</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/#services/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>http://www.editharkatama.com/about</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/#contact/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>http://www.cv.editharkatama.com/services</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/pages/akomodasi/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>http://www.editharkatama.com/services</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/pages/auto-detailing/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>http://www.cv.editharkatama.com/contact</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/pages/catering/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>http://www.editharkatama.com/contact</loc>
-    <lastmod>2024-08-26</lastmod>
+    <loc>https://editharkatama.vercel.app/pages/dekorasi/</loc>
+    <lastmod>2024-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
 
-  <!-- Tambahkan lebih banyak URL sesuai kebutuhan -->
+
+  <url>
+    <loc>https://editharkatama.vercel.app/pages/eo/</loc>
+    <lastmod>2024-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://editharkatama.vercel.app/pages/galeri/</loc>
+    <lastmod>2024-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+ <url>
+    <loc>https://editharkatama.vercel.app/pages/transportasi/</loc>
+    <lastmod>2024-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://editharkatama.vercel.app/pages/wo/</loc>
+    <lastmod>2024-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 
 </urlset>
