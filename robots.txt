@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Dissallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://editharkatama.vercel.app/sitemap.xml
