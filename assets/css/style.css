@@ -413,6 +413,20 @@ h6 {
   background-attachment: fixed;
 }
 
+/* Atur ukuran gambar di desktop */
+.hero-logo {
+  width: 100%; /* Sesuaikan dengan ukuran kontainer */
+  max-width: 300px; /* Ukuran maksimum di desktop */
+}
+
+/* Atur ukuran gambar di perangkat mobile */
+@media (max-width: 768px) {
+  .hero-logo {
+    width: 80%; /* Ukuran gambar di perangkat mobile */
+    max-width: 250px; /* Ukuran maksimum di perangkat mobile */
+  }
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 0%;
