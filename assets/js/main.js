@@ -355,33 +355,53 @@ document
     }
   });
 
-/*
- * Set Cookies
- */
-// Select the cookie consent box and all buttons
-// const cookieBox = document.getElementById("cookieBox"),
-//   buttons = document.querySelectorAll(".button");
+// == Set Cookies ==
+document.addEventListener("DOMContentLoaded", function () {
+  const cookiesNotice = document.getElementById("cookies-notice");
+  const acceptButton = document.getElementById("accept-button");
+  const declineButton = document.getElementById("decline-button");
 
-// const executeCodes = () => {
-//   // Check if the cookie "cookieBy" exists
-//   if (document.cookie.includes("cookieBy=CV. Edith Arkatama")) return;
+  // Function to set a cookie with a name, value, and expiration days
+  function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  }
 
-//   // Show the cookie consent box
-//   cookieBox.classList.add("show");
+  // Function to get a cookie by name
+  function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(";");
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === " ") c = c.substring(1);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length);
+    }
+    return null;
+  }
 
-//   // Add event listeners to each button
-//   buttons.forEach((button) => {
-//     button.addEventListener("click", () => {
-//       // Hide the cookie consent box
-//       cookieBox.classList.remove("show");
+  // Function to check if the cookies have been accepted
+  function checkCookies() {
+    return getCookie("cookiesAccepted") === "true";
+  }
 
-//       // If the accept button is clicked, set the cookie for 30 days
-//       if (button.id === "acceptBtn") {
-//         const oneMonthInSeconds = 60 * 60 * 24 * 30;
-//         document.cookie = `cookieBy=CV. Edith Arkatama; max-age=${oneMonthInSeconds}; path=/`;
-//       }
-//     });
-//   });
-// };
-// // Execute the function when the webpage loads
-// window.addEventListener("load", executeCodes);
+  // Show the cookies notice if not accepted
+  if (!checkCookies()) {
+    cookiesNotice.classList.add("show");
+  }
+
+  // Handle accept button click
+  acceptButton.addEventListener("click", function () {
+    setCookie("cookiesAccepted", "true", 365); // Cookie expires in 365 days
+    cookiesNotice.classList.remove("show");
+  });
+
+  // Handle decline button click
+  declineButton.addEventListener("click", function () {
+    cookiesNotice.classList.remove("show");
+  });
+});
