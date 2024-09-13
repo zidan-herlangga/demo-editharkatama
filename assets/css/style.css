@@ -39,7 +39,7 @@ h6 {
 /* -------------------------------------------------------------
 # Set Cookies 
 --------------------------------------------------------------*/
-/* .cookies {
+.cookies {
   display: none;
   position: fixed;
   bottom: 0;
@@ -51,13 +51,11 @@ h6 {
   padding: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-} */
+}
+.cookies.show {
+  display: block;
+}
 
-/* .cookies.show {
-  display: block; 
-} */
-
-/* 
 .button {
   margin: 5px;
   padding: 10px 20px;
@@ -66,11 +64,11 @@ h6 {
   color: white;
   cursor: pointer;
   border-radius: 5px;
-} */
+}
 
-/* .button:hover {
+.button:hover {
   background-color: #b4852d;
-} */
+}
 
 /*--------------------------------------------------------------
 # Button Go To Top, To Whatsapp, Play Music
