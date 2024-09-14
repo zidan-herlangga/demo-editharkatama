@@ -556,6 +556,7 @@ h6 {
   background: linear-gradient(to right, #ca9532, #f7c3c3);
   background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
 }
 
 #hero span {
