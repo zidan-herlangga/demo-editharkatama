@@ -782,95 +782,134 @@
     <!-- ========= WhatsApp Modal End ========= -->
 
     <!-- ========= Custom Package Modal ========= -->
-    <div
-      class="modal fade"
-      id="customOrderModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog justify-content-center">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
-              Form Pemesanan Custom
-            </h5>
+    <<div
+    class="modal fade"
+    id="customOrderModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog justify-content-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Form Pemesanan Custom
+          </h5>
+          <button
+            type="button"
+            class="border-0 bg-transparent"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true" class="fs-3 text-danger">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body g-5">
+          <form id="customOrderForm" class="justify-content-start">
+            
+            <!-- Informasi Kontak -->
+            <div class="form-group">
+              <label for="fullName">Nama Lengkap:</label>
+              <input
+                type="text"
+                class="form-control mb-3"
+                id="fullName"
+                name="fullName"
+                required
+              />
+            </div>
+            <!-- Detail Acara -->
+            <div class="form-group">
+              <label for="weddingDate">Tanggal Pernikahan:</label>
+              <input
+                type="date"
+                class="form-control mb-3"
+                id="weddingDate"
+                name="weddingDate"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="eventLocation">Tempat Acara:</label>
+              <input
+                type="text"
+                class="form-control mb-3"
+                id="eventLocation"
+                name="eventLocation"
+                required
+              />
+            </div>
+            <!-- Kebutuhan Khusus -->
+            <div class="form-group">
+              <label for="guestCount">Jumlah Tamu:</label>
+              <input
+                type="number"
+                class="form-control mb-3"
+                id="guestCount"
+                name="guestCount"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="theme">Tema atau Konsep:</label>
+              <input
+                type="text"
+                class="form-control mb-3"
+                id="theme"
+                name="theme"
+              />
+            </div>
+            <div class="form-group">
+              <label for="budget">Anggaran Total:</label>
+              <input
+                type="number"
+                class="form-control mb-3"
+                id="budget"
+                name="budget"
+              />
+            </div>
+            
+            <!-- Keterangan Tambahan -->
+            <div class="form-group">
+              <label for="specialMessage">Pesan Khusus:</label>
+              <textarea
+                class="form-control mb-3"
+                id="specialMessage"
+                name="specialMessage"
+                rows="4"
+              ></textarea>
+            </div>
+            
+            <!-- Konfirmasi -->
+            <div class="form-group form-check mb-3">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="confirmationCheck"
+                name="confirmationCheck"
+                required
+              />
+              <label class="form-check-label" for="confirmationCheck">
+                Saya telah memeriksa informasi yang saya masukkan dan memastikan semuanya benar.
+              </label>
+            </div>
+            
+            <!-- Tombol Kirim -->
             <button
-              type="button"
-              class="border-0 bg-transparent"
-              data-dismiss="modal"
-              aria-label="Close"
+              type="submit"
+              class="btn text-white"
+              id="sendPackageCustom"
+              style="background: rgb(93, 192, 36)"
             >
-              <span aria-hidden="true" class="fs-3 text-danger">&times;</span>
+              Kirim Pesanan
             </button>
-          </div>
-          <div class="modal-body g-5">
-            <form id="customOrderForm justify-content-start">
-              <div class="form-group">
-                <label for="productType">Jenis Produk/Layanan:</label>
-                <input
-                  type="text"
-                  class="form-control mb-3"
-                  id="productType"
-                  name="productType"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="customDescription">Deskripsi Kustomisasi:</label>
-                <textarea
-                  class="form-control mb-3"
-                  id="customDescription"
-                  name="customDescription"
-                  rows="4"
-                  required
-                ></textarea>
-              </div>
-              <div class="form-group">
-                <label for="quantity">Jumlah Pesanan:</label>
-                <input
-                  type="number"
-                  class="form-control mb-3"
-                  id="quantity"
-                  name="quantity"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="specifications"
-                  >Spesifikasi (Warna, Ukuran, dll.):</label
-                >
-                <input
-                  type="text"
-                  class="form-control mb-3"
-                  id="specifications"
-                  name="specifications"
-                />
-              </div>
-              <div class="form-group">
-                <label for="deliveryDate">Tanggal Pengiriman:</label>
-                <input
-                  type="date"
-                  class="form-control mb-3"
-                  id="deliveryDate"
-                  name="deliveryDate"
-                  required
-                />
-              </div>
-              <a
-                href="#customOrderModal"
-                class="btn text-white"
-                id="sendPackageCustom"
-                style="background: rgb(93, 192, 36)"
-              >
-                Kirim Pesanan
-              </a>
-            </form>
-          </div>
+          </form>
         </div>
       </div>
     </div>
+  </div>
+  
     <!-- ========= End Custom Package Modal ========= -->
 
     <!-- Vendor JS Files -->
