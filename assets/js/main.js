@@ -355,6 +355,58 @@ document
     }
   });
 
+document
+  .getElementById("sendPackageCustom")
+  .addEventListener("click", function (event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Dapatkan nilai input dari form
+    const fullName = document.getElementById("fullName").value;
+    const weddingDate = document.getElementById("weddingDate").value;
+    const eventLocation = document.getElementById("eventLocation").value;
+    const guestCount = document.getElementById("guestCount").value;
+    const theme = document.getElementById("theme").value;
+    const budget = document.getElementById("budget").value;
+    const specialMessage = document.getElementById("specialMessage").value;
+    const confirmationCheck =
+      document.getElementById("confirmationCheck").checked;
+
+    // Membuat pesan whatsapp
+    const message =
+      `*Halo, saya ingin memesan custom dengan detail berikut:* \n\n` +
+      `- Nama Lengkap: ${fullName}\n` +
+      `- Tanggal Pernikahan: ${weddingDate}\n` +
+      `- Tempat Acara: ${eventLocation}\n` +
+      `- Jumlah Tamu: ${guestCount}\n` +
+      `- Tema atau Konsep: ${theme}\n` +
+      `- Anggaran Total: ${budget}\n` +
+      `- Pesan Khusus: ${specialMessage}`;
+
+    // WhatsApp URL
+    const phoneNumber = "6282298066188"; // WhatsApp number
+    const waURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+      message
+    )}`;
+
+    // Validasi input
+    if (
+      fullName === "" ||
+      weddingDate === "" ||
+      eventLocation === "" ||
+      guestCount === "" ||
+      theme === "" ||
+      budget === "" ||
+      specialMessage == "" ||
+      !confirmationCheck
+    ) {
+      alert("Harap lengkapi semua data yang dibutuhkan!");
+      return;
+    } else {
+      window.open(waURL, "_blank");
+    }
+  });
+
 // == Set Cookies ==
 document.addEventListener("DOMContentLoaded", function () {
   const cookiesNotice = document.getElementById("cookies-notice");
