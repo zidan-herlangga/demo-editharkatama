@@ -74,7 +74,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      // image: "/assets/img/logo-edith.webp", // Ensure this path is correct
     },
 
     // Paket 400 Orang
@@ -724,7 +724,7 @@ Desinfectan System for all guest and wedding area
         }" data-price="${pkg.price}" data-description="${
           pkg.description
         }" data-image="${pkg.image}">
-          <img src="${pkg.image}" alt="${pkg.name}">
+          <!-- <img src="${pkg.image}" alt="${pkg.name}"> -->
           <h3>${pkg.name}</h3>
           <p>${pkg.price.toLocaleString("id-ID", {
             style: "currency",

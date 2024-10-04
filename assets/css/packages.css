@@ -61,7 +61,7 @@
 .packages {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px; /* Horizontal and vertical gap between packages */
+  gap: 40px; /* Horizontal and vertical gap between packages */
 }
 
 /* Styles for package items */
@@ -176,8 +176,10 @@
   }
 
   .packages {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 15px;
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr; /* Atur kolom menjadi satu */
   }
 }
 
