@@ -74,7 +74,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      // image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi-3.jpg", // Ensure this path is correct
     },
 
     // Paket 400 Orang
@@ -143,7 +143,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi-4.jpg", // Ensure this path is correct
     },
 
     // Paket 500 Orang
@@ -213,7 +213,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi-14.jpg", // Ensure this path is correct
     },
 
     // Paket 600 Orang
@@ -282,7 +282,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi3.jpg", // Ensure this path is correct
     },
 
     // Paket 700 Orang
@@ -353,7 +353,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi3.jpg", // Ensure this path is correct
     },
 
     // Paket 800 Orang
@@ -424,7 +424,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi3.jpg", // Ensure this path is correct
     },
 
     // Paket 1000 Orang
@@ -497,7 +497,7 @@ Sosis Solo
 Lemper
 Krocket Kentang
 Sus`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/dekorasi/dekorasi3.jpg", // Ensure this path is correct
     },
 
     //paket hotel horisson bekasi
@@ -551,7 +551,7 @@ Crew WO 5 Person on the Event
 
 *Include One Night Stay in Duluxe Room for Bride and Groom
 `,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo1.jpg", // Ensure this path is correct
     },
     {
       name: "Park 5 Cilandak Hotel Package",
@@ -574,7 +574,7 @@ Include :
 Desinfectan System for all guest and wedding area 
 < 300sqm wedding area 
 1 night at Duluxe Room Park 5 Hotel`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo2.jpg", // Ensure this path is correct
     },
     {
       name: "South Lake MGC Package",
@@ -591,7 +591,7 @@ Desinfectan System for all guest and wedding area
       Voucher Hotel Honey Moon Package
       Crew WO
       E-Invitation`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo2.jpg", // Ensure this path is correct
     },
     {
       name: "Paketan Hotel MaxOne 1",
@@ -611,7 +611,7 @@ Desinfectan System for all guest and wedding area
       Sound System
       MC Nasional
       Crew Edith`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo7.jpg", // Ensure this path is correct
     },
     {
       name: "Paketan Hotel MaxOne 2",
@@ -631,7 +631,7 @@ Desinfectan System for all guest and wedding area
       Sound System
       MC Nasional
       Crew Edith`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo4.jpg", // Ensure this path is correct
     },
     {
       name: "Paketan Hotel MaxOne 3",
@@ -651,7 +651,7 @@ Desinfectan System for all guest and wedding area
       Sound System
       MC Nasional
       Crew Edith`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo5.jpg", // Ensure this path is correct
     },
     {
       name: "Paketan Hotel MaxOne 4",
@@ -671,7 +671,7 @@ Desinfectan System for all guest and wedding area
       Sound System
       MC Nasional
       Crew Edith`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo7.jpg", // Ensure this path is correct
     },
     {
       name: "Paketan Hotel MaxOne 5",
@@ -691,7 +691,7 @@ Desinfectan System for all guest and wedding area
       Sound System
       MC Nasional
       Crew Edith`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo5.jpg", // Ensure this path is correct
     },
     {
       name: "Paketan Hotel MaxOne 6",
@@ -711,7 +711,7 @@ Desinfectan System for all guest and wedding area
       Sound System
       MC Nasional
       Crew Edith`,
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+      image: "/assets/img/wo/wo6.jpg", // Ensure this path is correct
     },
   ];
 
