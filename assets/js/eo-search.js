@@ -18,40 +18,40 @@ document.addEventListener("DOMContentLoaded", () => {
       venue: "venue1",
       price: 10000000,
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit!",
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+        "",
+      image: "/assets/img/event-organizer-image/paket-eo-1.jpeg", // Ensure this path is correct
     },
     {
       name: "Paket B",
       venue: "venue2",
       price: 20000000,
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit!",
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+        "",
+      image: "/assets/img/event-organizer-image/paket-eo.jpg", // Ensure this path is correct
     },
     {
       name: "Paket C",
       venue: "venue3",
       price: 15000000,
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit!",
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+        "",
+      image: "/assets/img/event-organizer-image/paket-eo-1.jpeg", // Ensure this path is correct
     },
     {
       name: "Paket D",
       venue: "venue1",
       price: 25000000,
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit!",
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+        "",
+      image: "/assets/img/event-organizer-image/paket-eo.jpg", // Ensure this path is correct
     },
     {
       name: "Paket E",
       venue: "venue2",
       price: 18000000,
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi provident natus odit fuga odio, illo asperiores voluptas ipsa mollitia. Similique culpa molestias, quas eos atque facilis voluptatem dolore sunt? Molestiae obcaecati fugiat, doloribus voluptatum repellat harum autem nulla excepturi placeat aliquid vero. Ratione eos fugit natus aliquam voluptate dolorum reprehenderit!",
-      image: "/assets/img/logo-edith.webp", // Ensure this path is correct
+        " ",
+      image: "/assets/img/event-organizer-image/paket-eo-1.jpeg", // Ensure this path is correct
     },
   ];
 
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }" data-price="${pkg.price}" data-description="${
           pkg.description
         }" data-image="${pkg.image}">
-          <img src="${pkg.image}" alt="${pkg.name}">
+          <img src="${pkg.image}" alt="${pkg.name}"> 
           <h3>${pkg.name}</h3>
           <p>${pkg.price.toLocaleString("id-ID", {
             style: "currency",
