@@ -1,16 +1,66 @@
-# React + Vite
+# CV. Edith Arkatama
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website company profile untuk **CV. Edith Arkatama** — perusahaan yang bergerak di bidang Event Organizer, Wedding Organizer, Catering, Transportasi Pariwisata, Fotografi, dan jasa lainnya.
 
-Currently, two official plugins are available:
+Dibangun dengan **React + Vite + Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fitur
 
-## React Compiler
+- Wedding Organizer & Paket Wedding
+- Event Organizer dengan filter harga & venue
+- Galeri foto & video testimonial
+- Halaman Catering, Dekorasi, Fotografi, Transportasi, Akomodasi, Auto Detailing
+- Typing effect di hero
+- Integrasi WhatsApp untuk pemesanan
+- Responsive design
+- Animate on Scroll (AOS)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Stack | Keterangan |
+|-------|-----------|
+| [React 19](https://react.dev) | Library UI |
+| [Vite 8](https://vite.dev) | Build tool |
+| [Tailwind CSS 3](https://tailwindcss.com) | Utility CSS |
+| [React Router 6](https://reactrouter.com) | Routing |
+| [AOS](https://michalsnik.github.io/aos/) | Animasi scroll |
+| [Remix Icon](https://remixicon.com) | Ikon |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Cara Menjalankan
+
+```bash
+# Install dependencies
+npm install
+
+# Development
+npm run dev
+
+# Build production
+npm run build
+
+# Preview build
+npm run preview
+
+# Lint
+npm run lint
+```
+
+## Struktur Folder
+
+```
+src/
+├── components/     # Komponen reusable (Header, Footer, dll)
+├── pages/          # Halaman (Home, Catering, WO, EO, dll)
+├── App.jsx         # Router utama
+├── main.jsx        # Entry point
+└── index.css       # Global styles + Tailwind
+
+public/
+└── assets/         # Gambar, vendor, musik
+```
+
+## Kontak
+
+- **WhatsApp**: [+62 822-9806-6188](https://wa.me/6282298066188)
+- **Email**: editharkatama@gmail.com
+- **Instagram**: [@edithwoeo](https://instagram.com/edithwoeo)
